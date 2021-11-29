@@ -1,0 +1,65 @@
+// Section Container Myself
+.myself
+	display flex
+	flex-flow column wrap
+	height 100%
+	&__container__avatar
+		margin 0
+		width 12rem
+		height 12rem
+		border 1.5px inset $secondary
+		border-radius 50%
+		^[0]__avatar
+			background-image url('../image/john.jpg')
+			background-size cover
+			background-repeat no-repeat
+			background-position center
+			border 1.5px solid $secondary
+			border-radius 50%
+			margin 5%
+			width 90%
+			height 90%
+	&__container__menu
+	&__menu__action
+		display none
+	&__profile
+		display flex
+		flex-flow column wrap
+		align-items center
+		justify-content center
+		flex 1 1 auto
+		text-align center
+	&__container-logo
+		margin 0
+		width 70%
+		^[0]__logo
+			width 100%
+	&__fullname
+		font-size 1.8rem
+		text-shadow 1px 1px 15px white
+		margin .9rem 0 0
+		font-weight 300
+	&__description
+		margin 0 0 .5rem
+	&__footer
+		display flex
+		flex-flow row wrap
+		justify-content space-around
+		&__by
+			text-align center
+			font-size .85rem
+			letter-spacing 1px
+			& p
+				margin .4rem 0
+		&__social
+			display flex
+			justify-content space-around
+			align-items center
+			& .myself__footer__link
+				padding 0 .5rem
+				color white
+				text-decoration none
+				font-size 1.6rem
+				transition all .3s ease
+				&:hover
+					color $primary
