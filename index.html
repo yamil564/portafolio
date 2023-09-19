@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="John Fredy Baquero Celis - Desarrollador Web Profesional" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link type="image/x-icon" href="public/image/codeico.png" rel="icon" />
+	<link href="https://fonts.googleapis.com/css?family=K2D:300|Rambla:700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css" />
+	<link rel="stylesheet" href="public/css/style.css" />
+	<title>Yamil Delgado - Desarrollador de Software</title>
+</head>
+<body>
+	<!-- <div class="loader">
+		<div class="loader__container">
+			<div class="loader__hexagon"></div>
+			<p class="loader__message">Cargando portafolio...</p>
+		</div>
+	</div> -->
+
+	<div class="blanketBody"></div>
+
+	<div class="control-actions">
+		<span class="control-actions__menu"><i class="fas fa-hamburger"></i></span>
+	</div>
+
+	<div class="container-master">
+		<!-- Éste es el menú para dispositivos móviles y tablet's -->
+		<div class="myself__container__menu">
+			<div class="myself__data">
+				<div class="myself__data__container-avatar">
+					<div class="myself__data__avatar"></div>
+				</div>
+				<div class="myself__data__info">
+					<h4 class="myself__data__info__fullname">Yamil Delgado Valencia</h4>
+					<p class="myself__data__info__role">Desarrollador Full Stack</p>
+				</div>
+			</div>
+
+			<ul class="myself__menu">
+				<a href="#home" class="myself__menu__link myself__menu__link--active">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-home fa-stack-1x fa-inverse"></i>
+						</span>
+						Inicio
+					</li>
+				</a>
+				<a href="#welcome" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-lightbulb fa-stack-1x fa-inverse"></i>
+						</span>
+						Acerca de Mi
+					</li>
+				</a>
+				<a href="#portfolio" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+						</span>
+						Mi Portafolio
+					</li>
+				</a>
+				<a href="#contact" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fa fa-address-book fa-stack-1x fa-inverse"></i>
+						</span>
+						Contáctame
+					</li>
+				</a>
+				<a href="https://medium.com/@jfbaquerocelis" target="_blank" class="myself__menu__link">
+					<li class="myself__menu__item">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-square fa-stack-2x"></i>
+							<i class="fab fa-medium-m fa-stack-1x fa-inverse"></i>
+						</span>
+						Linkedin
+					</li>
+				</a>
+			</ul>
+		</div>
+
+		<!-- Esta es la sección principal, donde se muestra la información básica -->
+		<section class="container__myself">
+			<span class="myself__menu__action"><i class="fas fa-hamburger"></i></span>
+
+			<article class="myself">
+				<div class="myself__profile">
+					<div class="myself__container__avatar">
+						<div class="myself__avatar"></div>
+					</div>
+					<h1 class="myself__fullname">Yamil Osmar Delgado Valencia</h1>
+					<p class="myself__description">Desarrollador de Software</p>
+				</div>
+				<div class="myself__footer">
+					<div class="myself__footer__by">
+						<p>Hecho con <i class="fa fa-heart" style="color:#e75353;"></i></p>
+						<p>© 2021</p>
+					</div>
+					<div class="myself__footer__social">
+						<a class="myself__footer__link" href="https://www.linkedin.com/in/yamildv/" target="_blank">
+							<i class="fab fa-linkedin"></i>
+						</a>
+						<a class="myself__footer__link" href="" target="_blank">
+							<i class="fab fa-twitter-square"></i>
+						</a>
+						<a class="myself__footer__link" href="https://github.com/yamil564" target="_blank">
+							<i class="fab fa-github-square"></i>
+						</a>
+						<a class="myself__footer__link" href="https://www.facebook.com/chispitas.de.coco/" target="_blank">
+							<i class="fab fa-facebook"></i>
+						</a>
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<!-- Éste contenedor muestra los artículos que actualmente están en la página -->
+		<section class="container__articles">
+			<nav class="menu">
+				<ul class="menu-list">
+					<a href="#welcome" class="menu-list__link menu-list__link--active">
+						<li class="menu-list__item">Acerca de Mi</li>
+					</a>
+					<a href="#portfolio" class="menu-list__link">
+						<li class="menu-list__item">Mi Portafolio</li>
+					</a>
+					<a href="#contact" class="menu-list__link">
+						<li class="menu-list__item">Contáctame</li>
+					</a>
+					<a href="https://www.linkedin.com/in/yamildv/" target="_blank" class="menu-list__link">
+						<li class="menu-list__item"><i class="fab fa-linkedin"></i>Linkedin</li>
+					</a>
+				</ul>
+			</nav>
+
+			<article class="welcome article--show" id="welcome">
+				<h2 class="welcome__title">¡Bienvenido!</h2>
+				<p class="welcome__description">Mi nombre es <strong>Yamil</strong>, soy desarrollador y vivo en la ciudad de Lima. Tengo conocimientos de prgramacion en lenguajes 
+					como <strong>Javascrip, python, php, java, c#, swift, nodejs</strong>, con estos he aprendido muchas cosas y con ellos desarrollo actualmente. Ademas tambien cuento
+					con conocimientos en diseño grafico, edicion de video, ingles intermedio y excel avanzado.
+					Mi objetivo es usar todos estos conocimientos como herramienta para crear soluciones 
+					tecnológicas a la medida de cualquier necesidad. <br /> Estoy convencido de que el trabajo en equipo es la mejor forma de avanzar en cualquier trabajo o 
+					proyecto. <br />
+
+				<h2 class="welcome__title">Stack de Desarrollo</h2>
+				<p class="welcome__description">A lo largo de los años en los que me he desempeñado como estudiante y desarrollador he trabajado con diferentes tecnologías. A continuación quiero mostrarte mi stack de desarrollo actual y las herramientas con las que he trabajado.</p>
+
+				<div class="welcome__container-stack">
+					<!-- Frontend -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Frontend</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-html5" style="color:#f16529;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-css3-alt" style="color:#0170ba;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-js" style="color:#ffe629; background-color: #2d2d2d;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-bootstrap" style="color:#563d7c;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-react" style="color:#2196F3;"></i>
+							</div>
+						</div>
+					</div>
+					<!-- Backend -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Backend</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-node" style="color:#43853d;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-npm" style="color:#ED1C24;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-java" style="color:#642222;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-python" style="color:#dee200;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-php" style="color:#0091e2;"></i>
+							</div>
+						</div>
+					</div>
+					<!-- Herramientas de Trabajo -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Gestión de proyectos</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-git-alt" style="color:#f64e27;"></i>
+							</div>
+							<div class="welcome__stack__tool">
+								<i class="fab fa-trello" style="color:#0079bf;"></i>
+							</div>
+						</div>
+					</div>
+					<!-- Databases -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Bases de datos</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="mongodb" />
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" alt="mysql" />
+							</div>
+							<div class="welcome__stack__tool">
+								<img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" />
+							</div>
+						</div>
+					</div>
+					<!-- Servicios en la nube -->
+					<!-- Servidores -->
+					<div class="welcome__stack">
+						<h4 class="welcome__stack__title">Servidores</h4>
+						<div class="welcome__stack__tools">
+							<div class="welcome__stack__tool">
+								<i class="fab fa-ubuntu" style="color:#e95420;"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+
+			<article class="portfolio" id="portfolio">
+				<h2 class="portfolio__title">Mi Portafolio</h2>
+				<p class="portfolio__description">En esta sección encontrarás los proyectos en los que he trabajado, también encontrarás algunas pruebas e inventos. Todo lo que sé hacer con las herramientas que uso.</p>
+				
+				<section class="portfolio__works">
+					<article class="portfolio__works__item" id="taxadministrador">
+						<div class="portfolio__works__item__header">
+							<img src="public/image/CCP.jpg" class="portfolio__works__item__header__logo">
+							<h3 class="portfolio__works__item__header__title">
+								Conocimiento Cultural Peruano
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">Aplicacion web creada para dar a conocer los mejores lugares turisticos en el Perú.</p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Desarrollador Full Stack</div>
+							<div>
+								<i class="fab fa-java" style="color:#853922;"></i>
+								<i class="fab fa-html5 fa-lg" style="color:#e57f16;"></i>
+								<i class="fab fa-js fa-lg" style="color:#ffeb00;background:#2d2d2d;"></i>
+							</div>
+						</div>
+					</article>
+
+					<article class="portfolio__works__item" id="busser">
+						<div class="portfolio__works__item__header">
+							<img src="public/image/LMS.jpg" class="portfolio__works__item__header__logo">
+							<h3 class="portfolio__works__item__header__title">
+								Plataforma de LMS
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">Plataforma web orientada principalmente a estudiantes que curses estudios superiores.</p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Desarrollador Backend</div>
+							<div>
+								<i class="fab fa-js fa-lg" style="color:#ffeb00;background:#2d2d2d;"></i>
+								<i class="fab fa-php" style="color:#070bff;"></i>
+								<i class="fab fa-html5 fa-lg" style="color:#e57f16;"></i>
+							</div>
+						</div>
+					</article>
+
+					<article class="portfolio__works__item" id="yipgo">
+						<div class="portfolio__works__item__header">
+							<img src="public/image/yourshop.jpeg" class="portfolio__works__item__header__logo">
+							<h3 class="portfolio__works__item__header__title">
+								YourShop
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">Desarrollo de una plataforma de e-comerce.</p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Desarrollador Frontend</div>
+							<div>
+								<i class="fab fa-html5 fa-lg" style="color:#e57f16;"></i>
+								<i class="fab fa-bootstrap fa-lg" style="color:#704aca;"></i>
+							</div>
+						</div>
+					</article>
+
+					<article class="portfolio__works__item" id="dashboard">
+						<div class="portfolio__works__item__header">
+							<img src="public/image/excel.jpg" class="portfolio__works__item__header__logo">
+							<h3 class="portfolio__works__item__header__title">
+								Desarrollo de base de datos
+							</h3>
+						</div>
+						<p class="portfolio__works__item__resume">Desarrollo de una base de datos para la empresa <strong>Everest Cargo SAC.</strong></p>
+						<div class="portfolio__works__tools">
+							<div class="portfolio__works__tools__role">Desarrollador Backend</div>
+							<div>
+								<i class="fab fa-bsa fa-lg" style="color:#E04E39;"></i>
+							</div>
+						</div>
+					</article>
+					
+				</section>
+			</article>
+
+			<article class="contact" id="contact">
+				<h2 class="contact__title">¿Necesitas soluciones tecnológicas para ti o tu empresa?</h2>
+				<p class="contact__description">Has llegado al lugar indicado. Actualmente hago parte de un excelente grupo de trabajo, 
+					dispuesto a solucionar tu problema usando las mejores técnicas de análisis y desarrollo de software. <br> <br> 
+					Puedes contactarme para tomarnos un café y así hablar de tu idea. Podrás encontrar mis redes sociales en el panel principal o si deseas, 
+					puedes escribirme a mi correo <a class="welcome__community" href="" 
+					target="_blank">yamil.delgado@hotmail.com</a> o a mi numero de celular <strong>949 464 297</strong>.
+
+					<p align=center>
+						<img width="100%" src="public/image/simon.jpg">
+						</p>
+						<p align=center>"Y recuerda, <strong>creer en tu corazon</strong>, esa es tu <strong>magia</strong>".</p>
+			</article>
+			
+		</section>
+	</div>
+
+	<script src="https://kit.fontawesome.com/74a0a4aba0.js"></script>
+	<script src="public/js/main.js"></script>
+</body>
+</html>
